@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GOHU | Jasa Titip Paket</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        /* Global Styles */
+        body {
+            font-family: 'Poppins', sans-serif;
+            background: linear-gradient(135deg, #4e73df, #1cc88a); /* Blue to Green Gradient */
+            margin: 0;
+            padding: 0;
+            color: #fff; /* White text for contrast */
+            display: flex;
+            flex-direction: column;
+            height: 100vh; /* Full height of the viewport */
+        }
+
+        /* Navbar */
+        .navbar {
+            width: 100%;
+            background-color: #2c3e50; /* Dark Blue */
+            padding: 15px 0;
+            position: sticky;
+            top: 0;
+            z-index: 10;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+
+        .navbar a,
+        .navbar button {
+            display: inline-block;
+            padding: 12px 18px;
+            color: white;
+            background-color: transparent;
+            border: none;
+            font-size: 16px;
+            text-decoration: none;
+            text-align: center;
+            cursor: pointer;
+            transition: background-color 0.3s ease, transform 0.2s ease;
+        }
+
+        .navbar a:hover,
+        .navbar button:hover {
+            background-color: #16a085;
+            transform: scale(1.05);
+        }
+
+        /* Logo and Centered Title */
+        .center-text {
+            text-align: center;
+            padding: 20px;
+            margin-top: 30px;
+        }
+
+        .logo-img {
+            width: 120px;
+            height: auto;
+            margin-bottom: 15px;
+        }
+
+        .center-text p {
+            font-size: 20px;
+            color: #fff; /* Text color for contrast */
+            font-weight: 600;
+            margin-top: 10px;
+        }
+
+        /* Main Content Area */
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 40px;
+            padding: 0 15px;
+            flex-grow: 1; /* Allow content to grow and fill available space */
+        }
+
+        .content-box {
+            background-color: #fff;
+            padding: 30px;
+            box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+            border-radius: 15px;
+            text-align: center;
+            width: 100%;
+            max-width: 450px;
+            margin-bottom: 20px;
+            transition: transform 0.3s ease;
+        }
+
+        .content-box:hover {
+            transform: scale(1.02);
+        }
+
+        .content-box h2 {
+            font-size: 24px;
+            margin-bottom: 15px;
+            color: #2c3e50;
+            font-weight: 600;
+        }
+
+        .content-box p {
+            font-size: 18px;
+            color: #7f8c8d;
+            margin-bottom: 25px;
+        }
+
+        /* Harga Information */
+        .price-info {
+            font-size: 20px;
+            color: #e74c3c;
+            font-weight: bold;
+            margin-top: 20px;
+            padding: 12px;
+            background-color: #f9ebc6;
+            border-radius: 12px;
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Footer */
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #2c3e50;
+            color: white;
+            font-size: 14px;
+            margin-top: auto; /* Ensures the footer is pushed to the bottom */
+        }
+
+        footer p {
+            margin: 0;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Logo and Centered Title -->
+    <div class="center-text">
+        <img src="GOHU12.png" alt="Logo GOHU" class="logo-img">
+        <p>Jasa Titip Paket Murah Pelayanan Terbaik</p>
+    </div>
+
+    <!-- Navigation Bar -->
+    <div class="navbar">
+        <!-- Chat Admin link to WhatsApp -->
+        <a href="https://wa.me/6281244801294" target="_blank">
+            <i class="fa fa-fw fa-whatsapp"></i> Chat Admin
+        </a>
+        <!-- Alamat Jastip link -->
+        <a href="Daftaralamat.html"><i class="fa fa-fw fa-map-marker"></i> Alamat Jastip</a>
+        <!-- Cek Paket button no longer links anywhere -->
+        <button>
+            <i class="fa fa-fw fa-ticket"></i> Cek Paket
+        </button>
+    </div>
+
+    <!-- Main Content -->
+    <div class="container">
+        <div class="content-box">
+            <h2>Selamat Datang di GOHU!</h2>
+            <p>Kami menyediakan layanan jasa titip paket dengan harga terbaik dan pelayanan yang cepat dan aman.</p>
+            
+            <!-- Harga Info -->
+            <div class="price-info">
+                Jakarta ke Maluku Utara mulai dari <strong>Rp. 17.000/Kg</strong>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 GOHU By. Pace.dniel.</p>
+    </footer>
+
+</body>
+
+</html>
